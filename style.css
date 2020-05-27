@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20vw;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: black;
+  height: 80px;
+  width: 80px;
+  border-radius: 100px;
+  justify-content: center;
+  transition: all .4s ease-out;
+}
+
+p {
+  display: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  margin-bottom: auto;
+  margin-top: auto;
+  padding-left: 15px;
+}
+
+.button-container:hover { 
+  width: 160px;
+  justify-content: flex-start;
+  padding-left: 30px;
+  box-shadow: 0px 6px 18px -1px rgba(0,0,0,0.43);
+}
+
+.button-container:hover p { 
+  display: inline-flex;
+}
+
+
+.bookmark-container {
+  display: flex;
+  align-self: center;
+}
+
+.bookmark {
+  height: 30px;
+}
